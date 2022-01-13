@@ -1,23 +1,16 @@
 <resources>
-    <string name="app_name">RoyalHospital</string>
+    <string name="app_name" translatable="false">RoyalHospital</string>
     <string name="welcome">Welcome to Royal Hospital APP User Manual , select one option you want to know more about </string>
     <string name="title_1">Option 1</string>
-    <string name="description_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc. Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</string>
+    <string name="description_1" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc. Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</string>
     <string name="go_back">Go Back</string>
     <string name="bottom">Copyright © 2021 Grupo 2 | Develop by Gabriel Payano - Jorge Fernández Ruíz  - Guillermo González de Miguel - Javier Goméz Villasclaras</string>
     <string name="email_error">The email is not correct</string>
-    <string name="email_not_found">This email does`nt exist</string>
+    <string name="email_not_found">This email doesn\'t exist</string>
     <string name="null_password">The password cannot be empty</string>
     <string name="not_user_password">This password do not exist for this user</string>
 
     <string-array name="option_list">
-        <item>Upload a File</item>
-        <item>Download a File</item>
-        <item>Rename a File</item>
-        <item>Access to a patient Docs</item>
-        <item>Send a mail</item>
-        <item>Check my mails</item>
-
         <item>Upload a File</item>
         <item>Download a File</item>
         <item>Rename a File</item>
@@ -42,7 +35,7 @@
         <item>Check my mails - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
     </string-array>
     <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
+    <string name="prompt_email" translatable="false">Email</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
