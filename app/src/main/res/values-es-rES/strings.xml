@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Inicio sesión</string>
+    <string name="action_sign_in_short">Inicio sesión</string>
+    <string name="welcome_login">¡Bienvenido!</string>
+    <string name="invalid_username">Usuario no válido</string>
+    <string name="invalid_password">La contraseña debe ser >5 caracteres</string>
+    <string name="login_failed">Inicio de sesión fallido</string>
+    <string name="not_user_password">Esta contraseña no coincide para este usuario</string>
+    <string name="null_password">La contraseña no puede estar vacía</string>
+    <string name="email_not_found">Este email no existe</string>
+    <string name="email_error">Este email  no es correcto</string>
+    <string name="bottom">Copyright © 2021 Grupo 2 | Desarrollado por Gabriel Payano - Jorge Fernández Ruíz  - Guillermo González de Miguel - Javier Goméz Villasclaras</string>
+    <string name="go_back">Atrás</string>
+    <string name="title_1">Opción 1</string>
+    <string name="welcome">Bienvenido a la aplicación del manual de uso, selecciona una opción para saber más</string>
+
+    <string-array name="option_list">
+        <item>Subir un archivo</item>
+        <item>Descargar archivo</item>
+        <item>Renombrar archivo</item>
+        <item>Acceso a los archivos de paciente</item>
+        <item>Enviar un email</item>
+        <item>Comprobar un email</item>
+    </string-array>
+
+    <string-array name="description_list">
+        <item>Subir un archivo - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
+        <item>Descargar un archivo - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
+        <item>Renombrar un archivo - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
+        <item>Acceso a los archivos de un paciente- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
+        <item>Enviar un email - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
+        <item>Comprobar mis emails - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
+    </string-array>
+</resources>
