@@ -3,10 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/gabri/AndroidStudioProjects/RoyalHospital/app/src/main/res/layout/activity_main.xml" value="0.29393115942028986" />
-        <entry key="..\:/Users/gabri/AndroidStudioProjects/RoyalHospital/app/src/main/res/layout/login.xml" value="0.6" />
-        <entry key="..\:/Users/gabri/AndroidStudioProjects/RoyalHospital/app/src/main/res/layout/main_view.xml" value="0.29393115942028986" />
-        <entry key="..\:/Users/gabri/AndroidStudioProjects/RoyalHospital/app/src/main/res/xml/network_security_config.xml" value="0.2359375" />
+        <entry key="..\:/Users/gabri/AndroidStudioProjects/RoyalHospitalApp/app/src/main/res/layout/activity_main.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/gabri/AndroidStudioProjects/RoyalHospitalApp/app/src/main/res/layout/login.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/gabri/AndroidStudioProjects/RoyalHospitalApp/app/src/main/res/layout/main_view.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/gabri/AndroidStudioProjects/RoyalHospitalApp/app/src/main/res/layout/videoplayer.xml" value="0.35144927536231885" />
       </map>
     </option>
   </component>

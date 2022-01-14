@@ -1,41 +1,50 @@
 <resources>
-    <string name="app_name" translatable="false">RoyalHospital</string>
+    <string name="app_name">RoyalHospital</string>
     <string name="welcome">Welcome to Royal Hospital APP User Manual , select one option you want to know more about </string>
     <string name="title_1">Option 1</string>
-    <string name="description_1" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc. Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</string>
+    <string name="description_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc. Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</string>
     <string name="go_back">Go Back</string>
     <string name="bottom">Copyright © 2021 Grupo 2 | Develop by Gabriel Payano - Jorge Fernández Ruíz  - Guillermo González de Miguel - Javier Goméz Villasclaras</string>
     <string name="email_error">The email is not correct</string>
-    <string name="email_not_found">This email doesn\'t exist</string>
+    <string name="email_not_found">This email does`nt exist</string>
     <string name="null_password">The password cannot be empty</string>
     <string name="not_user_password">This password do not exist for this user</string>
 
     <string-array name="option_list">
+        <item>Start server</item>
+        <item>Log in FTP</item>
         <item>Upload a File</item>
         <item>Download a File</item>
         <item>Rename a File</item>
-        <item>Access to a patient Docs</item>
+        <item>Delete directory</item>
+        <item>Delete File</item>
+        <item>Disconnet FTP</item>
+
+        <item>Log in Mail</item>
         <item>Send a mail</item>
         <item>Check my mails</item>
+        <item>Exit mail</item>
     </string-array>
 
     <string-array name="description_list">
-        <item>Upload a File - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
-        <item>Download a File - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
-        <item>Rename a File - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
-        <item>Access to a patient Docs - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
-        <item>Send a mail - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
-        <item>Check my mails - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
+        <item>Start server - In order to start the FTP server you just need to start the APP and click into FTP server , and then select the directory to generate the folder of the server</item>
+        <item>Log in FTP - In order to log into the FTP server you must click on "Client FTP" and fill the user and password.</item>
+        <item>Upload a File - In order to upload a File first you must be log into the FPT , then select the folder into the Tree in which you want to upload the file , click on "Upload" Button , select the file on the modal and click on select </item>
+        <item>Download a File - In order to Download a File first you must be log into the FPT as a Doctor, then select the folder into the Tree in which you want to Download the file , click on "Download" Button , select the file on the modal and click on select</item>
+        <item>Rename a File - In order to Rename a File first you must be log into the FPT as a Doctor, then select the folder/File into the Tree in which you want to Rename the file , click on "Rename" Button , write the new name and click on accept</item>
+        <item>Delete directory - In order to Delete a Directory first you must be log into the FPT as a Doctor, then select the folder into the Tree in which you want to Delete the directory , click on "Delete" Button</item>
+        <item>Delete file - In order to Delete a file first you must be log into the FPT as a Doctor, then select the file into the Tree in which you want to Delete the file , click on "Delete" Button</item>
+        <item>Disconnect FTP - In order to log out into the FTP server you must click on "Disconnect" Button</item>
 
-        <item>Upload a File - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
-        <item>Download a File - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
-        <item>Rename a File - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
-        <item>Access to a patient Docs - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
-        <item>Send a mail - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
-        <item>Check my mails - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
+        <item>Log in Mail - In order to log into the FTP server you must click on "Log in Mail" and fill the user and password.</item>
+        <item>Send a mail - In order to sent a mail you must be sing into the mail server , click on "Write" button add the mail you want to send it to , add a subject , write the message and click on send button</item>
+        <item>Check my mails - In order to sent a mail you must be sing into the mail server , you just need to double click on the email you want to read and a modal will open with the info of your mail</item>
+        <item>Exit mail - In order to sent a mail you must be sing into the mail server , to log out you just need to click on Disconnect button </item>
+
     </string-array>
     <!-- Strings related to login -->
-    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_user">user</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>

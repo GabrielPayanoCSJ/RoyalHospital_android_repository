@@ -33,7 +33,7 @@ public class loginActivity extends AppCompatActivity {
 
     TextView username, password, emailError, passError;
     Button btnlogin;
-    private static final String LOGIN_REQUEST_URL = "http://11.65.4.167/RoyalHospital/validar_usuario.php";
+    private static final String LOGIN_REQUEST_URL = "http://localhost/RoyalHospital/validar_usuario.php";
     public static final int MY_DEFAULT_TIMEOUT = 15000;
 
     @Override
@@ -56,13 +56,13 @@ public class loginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 System.out.println("CE METE EN EL ONLICK");
                 //CHECK IF ALL DATA BY THE USER IS CORRECT
-                boolean userIsOk = chekOkUser();
+                //boolean userIsOk = chekOkUser();
                 boolean passIsOk = checkOkPass();
 
-                if (userIsOk && passIsOk) {
+                if (passIsOk) {
                     //Toast.makeText(loginActivity.this, "ENTRA EN EL IF", Toast.LENGTH_LONG).show();
                     //CHECK IF THIS USER EXIST IN THE DATABASE
-                    checkUserExist("http://192.168.56.1/RoyalHospital/validar_usuario.php");
+                    checkUserExist("http://11.65.4.167/RoyalHospital/validar_usuario.php");
                 }
             }
         });
@@ -109,12 +109,12 @@ public class loginActivity extends AppCompatActivity {
                         + "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$");
 
         Matcher mather = emailPattern.matcher(userNameValue);
-
+/*
         if (mather.find() != true) {
             emailError.setText("The email is not correct");
             username.setFocusable(true);
             return false;
-        }
+        }*/
 
         return true;
     }
@@ -153,9 +153,9 @@ public class loginActivity extends AppCompatActivity {
         }) {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
-               // Toast.makeText(loginActivity.this, "ENTRA EN PARAMS", Toast.LENGTH_LONG).show();
+               //Toast.makeText(loginActivity.this, "ENTRA EN PARAMS", Toast.LENGTH_LONG).show();
                 Map<String,String> parametros = new HashMap<String, String>();
-                parametros.put("email", username.getText().toString());
+                parametros.put("username", username.getText().toString());
                 parametros.put("password", password.getText().toString());
                 return parametros;
             }

@@ -1,36 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="prompt_password">Contraseña</string>
-    <string name="action_sign_in">Inicio sesión</string>
-    <string name="action_sign_in_short">Inicio sesión</string>
-    <string name="welcome_login">¡Bienvenido!</string>
-    <string name="invalid_username">Usuario no válido</string>
-    <string name="invalid_password">La contraseña debe ser >5 caracteres</string>
-    <string name="login_failed">Inicio de sesión fallido</string>
-    <string name="not_user_password">Esta contraseña no coincide para este usuario</string>
-    <string name="null_password">La contraseña no puede estar vacía</string>
+    <string name="app_name">RoyalHospital</string>
+    <string name="welcome">Bienvenido al manual de usuario de la aplicación Royal Hospital, seleccione una opción sobre la que desee saber más</string>
+    <string name="title_1">Opcion 1</string>
+    <string name="description_1">En español -> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc. Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</string>
+    <string name="go_back">Ir a Atrás</string>
+    <string name="bottom">Todos los derechos reservados © 2021 Grupo 2 | Develop by Gabriel Payano - Jorge Fernández Ruíz  - Guillermo González de Miguel - Javier Goméz Villasclaras</string>
+    <string name="email_error">El email no es correcto</string>
     <string name="email_not_found">Este email no existe</string>
-    <string name="email_error">Este email  no es correcto</string>
-    <string name="bottom">Copyright © 2021 Grupo 2 | Desarrollado por Gabriel Payano - Jorge Fernández Ruíz  - Guillermo González de Miguel - Javier Goméz Villasclaras</string>
-    <string name="go_back">Atrás</string>
-    <string name="title_1">Opción 1</string>
-    <string name="welcome">Bienvenido a la aplicación del manual de uso, selecciona una opción para saber más</string>
+    <string name="null_password">La contraseña no puede estar vacía</string>
+    <string name="not_user_password">Esta contraseña no existe para este usuario</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Inicio de sesión</string>
+    <string name="action_sign_in_short">Inicio de sesión</string>
+    <string name="welcome_login">Bienvenido!</string>
+    <string name="invalid_username">Usuario no valido</string>
+    <string name="invalid_password">La contraseña debe tener más de 5 caracteres</string>
+    <string name="login_failed">Inicio de sesión fallido</string>
 
     <string-array name="option_list">
-        <item>Subir un archivo</item>
-        <item>Descargar archivo</item>
-        <item>Renombrar archivo</item>
-        <item>Acceso a los archivos de paciente</item>
-        <item>Enviar un email</item>
-        <item>Comprobar un email</item>
+        <item>Iniciar servidor</item>
+        <item>Iniciar sesión en FTP</item>
+        <item>Subir archivos</item>
+        <item>Descargar un archivo</item>
+        <item>Renombrar un archivo</item>
+        <item>Borrar directorio</item>
+        <item>Borrar un archivo</item>
+        <item>Desconectar del servidor FTP</item>
+
+        <item>Iniciar sesión en correo</item>
+        <item>Enviar un correo</item>
+        <item>Ver correos</item>
+        <item>Salir del servidor de correos</item>
     </string-array>
 
     <string-array name="description_list">
-        <item>Subir un archivo - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
-        <item>Descargar un archivo - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
-        <item>Renombrar un archivo - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
-        <item>Acceso a los archivos de un paciente- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
-        <item>Enviar un email - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
-        <item>Comprobar mis emails - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat ultricies pretium. hendrerit sit amet commodo non, ultrices ut nunc.Sed mattis tincidunt ullamcorper. Nunc et ex sagittis, vulputate ligula eget, molestie justo.</item>
+        <item>Iniciar servidor - Para iniciar el servidor FTP, solo necesita iniciar la aplicación y hacer clic en el servidor FTP, y luego seleccionar el directorio para generar la carpeta del servidor. </item>
+        <item>Iniciar sesión en FTP - Para iniciar sesión en el servidor FTP debe hacer clic en "Cliente FTP" y completar el usuario y la contraseña</item>
+        <item>Subir un archivo - Para cargar un archivo, primero debe iniciar sesión en el FPT, luego seleccionar la carpeta en el árbol en el que desea cargar el archivo, hacer clic en el botón "Cargar", seleccionar el archivo en el modal y hacer clic en seleccionar</item>
+        <item>Descargar un archivo - Para descargar un archivo, primero debe iniciar sesión en FPT como médico, luego seleccione la carpeta en el árbol en el que desea descargar el archivo, haga clic en el botón "Descargar", seleccione el archivo en el modal y haga clic en Seleccione</item>
+        <item>Renombrar un archivo - Para cambiar el nombre de un archivo, primero debe iniciar sesión en FPT como médico, luego seleccione la carpeta/archivo en el árbol en el que desea cambiar el nombre del archivo, haga clic en el botón "Cambiar nombre", escriba el nuevo nombre y haga clic en aceptar.</item>
+        <item>Borrar un directorio- Para eliminar un directorio, primero debe iniciar sesión en FPT como médico, luego seleccione la carpeta en el árbol en el que desea eliminar el directorio, haga clic en el botón "Eliminar"</item>
+        <item>Borrar un archivo - Para eliminar un archivo, primero debe iniciar sesión en FPT como médico, luego seleccione el archivo en el árbol en el que desea eliminar el archivo, haga clic en el botón "Eliminar"</item>
+        <item>Desconectarse del servidor FTP - Para cerrar sesión en el servidor FTP, debe hacer clic en el botón "Desconectar"</item>
+        <item>Iniciar sesión en correo - Para iniciar sesión en el servidor FTP debe hacer clic en "Iniciar sesión en el correo" y completar el usuario y la contraseña.</item>
+        <item>Enviar un correo - Para enviar un correo, debe iniciar sesión en el servidor de correo, hacer clic en el botón "Escribir", agregar el correo al que desea enviarlo, agregar un asunto, escribir el mensaje y hacer clic en el botón enviar.</item>
+        <item>Ver mis correos - Para enviar un correo, debe iniciar sesión en el servidor de correo, solo necesita hacer doble clic en el correo electrónico que desea leer y se abrirá un modal con la información de su correo.</item>
+        <item>Salir de correos - Para enviar un correo, debe iniciar sesión en el servidor de correo, para cerrar la sesión solo necesita hacer clic en el botón Desconectar</item>
+
     </string-array>
+
+    <string name="prompt_user">Usuario</string>
 </resources>
